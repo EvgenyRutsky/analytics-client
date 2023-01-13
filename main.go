@@ -18,7 +18,7 @@ var wg = &sync.WaitGroup{}
 
 func init() {
 	flag.IntVar(&reqnum, "reqnum", 1, "Specify a number of requests")
-	flag.StringVar(&port, "port", "9090", "Specify port (default - 9090)")
+	flag.StringVar(&port, "port", "9090", "Specify port")
 	flag.Parse()
 
 	if *help {
