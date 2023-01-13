@@ -1,5 +1,5 @@
 # analytics-client
-Приложение, написанное на Go, используется для нагрузки [analytics-service](https://github.com/EvgenyRutsky/analytics-service) входяшими ивентами
+Приложение, написанное на Go, используется для нагрузки [analytics-service](https://github.com/EvgenyRutsky/analytics-service) входящими ивентами
 
 ## Запуск
 - Для того, чтобы указать количество запросов, которые будут отправленны на сервис, нужно указать атрибут `-reqnum`. _Значение по умолчанию - `1`._
